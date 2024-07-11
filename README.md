@@ -62,11 +62,11 @@ Fails on drm_fourcc.h…
 
 Create Symlinks
 
+```
 ln -s /usr/include/libdrm/drm_fourcc.h /usr/include/drm_fourcc.h
-
 ln -s /usr/include/libdrm/drm.h /usr/include/drm.h
-
 ln -s /usr/include/libdrm/drm_mode.h /usr/include/drm_mode.h
+```
 
 Ok now make install and it all does it’s thing
 
